@@ -1,4 +1,6 @@
 export default {
-  modules: ['@nuxt/content'],
-  target: "static"
-}
+  modules: ["@nuxt/content"],
+  buildModules: ["@nuxtjs/tailwindcss"],
+  target: "static",
+  components: true,
+};

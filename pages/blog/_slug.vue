@@ -1,5 +1,6 @@
 <template>
-  <article>
+  <article class="prose lg:prose-lg mx-auto">
+    <h1>{{ article.title }}</h1>
     <nuxt-content :document="article" />
   </article>
 </template>
